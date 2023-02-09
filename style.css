@@ -1,0 +1,132 @@
+/*font-family: 'Poppins', sans-serif;*/
+body{margin:0 auto; padding: 0px; background: #010008;}
+@font-face {
+    font-family: 'cambriab';
+    src: url(cambriab.ttf);
+  }
+
+.container{max-width: 1600px;}
+.header_sec{width: 100%; padding-top: 24px;}
+.logo_sec{width: 125px;}
+.logo_sec img{width: 100%;}
+.banner_sec{width: 100%; padding-top: 47px; position: relative;}
+.banner_inn{position: relative; width: 100%;}
+.banner_text{width: 608px; position: absolute; left: 160px; top: 185px;}
+.banner_text h6{margin: 0px; font: 500 60px/70px 'cambriab'; color: #fff;}
+.banner_text p{margin: 0px; padding: 20px 0 0; font: 400 24px/30px 'Poppins', sans-serif; color: #fff;}
+.gorila{width: auto; position: absolute; bottom: 0px; right: -28%; left: 0px; margin: 0 auto;}
+.slot_sec{width: 100%; padding-top: 77px;}
+.slot_inn{width: 100%;}
+.slot_inn h6{margin: 0px; font: 400 40px/45px 'Poppins', sans-serif; color: #fff; text-transform: uppercase; padding-bottom: 28px;}
+.slot_inn h6 span{font-weight: 700; color: #2588ce;}
+.game_box{width: 100%;}
+.game_box_up{width: 100%; position: relative;}
+.game_box_dwn{width: 100%; margin-top: 18px;}
+.game_box_dwn p{margin: 0px; font: 400 18px/24px 'Poppins', sans-serif; color: #fff; }
+.game_box_up_inner{width: 100%; position: absolute; top: 0; left: 0px; right: 0px; display: inline-block; margin: 0 auto; 
+    background: rgba(0, 0, 0, 0.5); text-align: center; height: 100%; opacity: 0;}
+.game_box_up_inner a{width: auto; display: inline-block; text-align: center; padding: 10px 22px; color: #fff;  background: rgb(33,114,172);
+    background: linear-gradient(90deg, rgba(33,114,172,1) 0%, rgba(60,134,188,0.8981967787114846) 35%, rgba(81,151,201,1) 100%); margin-top: 18%;
+    border-radius: 7px; text-decoration: none; text-transform: uppercase; font: 600 22px/28px 'Poppins', sans-serif;}
+.game_box:hover .game_box_up_inner{opacity: 1;}
+.game_box_up img{border-radius: 10px;}
+.card_game{padding-top: 75px;}
+.footer_sec{width: 100%; margin-top: 80px;}
+.footer_inn{width:100%; padding: 35px 0; border-top: 1px solid #323233;}
+.footer_sec p{margin: 0px; color: #323233; font:300 24px/28px 'Poppins', sans-serif; }
+
+
+/*Responsive*/
+@media (min-width:1400px) and (max-width:1599px){
+    .container{max-width:1320px;}
+    .gorila { width: 72%;left: 0px; margin: 0 auto;}
+    .banner_text{top:83px;}
+    .banner_text p{font-size: 22px; line-height: 26px;}
+    .banner_text h6{font-size: 50px; line-height: 60px;}
+}
+
+@media (min-width:1200px) and (max-width:1399px){
+    .container{max-width:1140px;}
+    .gorila { width: 72%;left: 0px; margin: 0 auto;}
+    .banner_text{top:63px; left: 95px; width: 555px;}
+    .banner_text p{font-size: 21px; line-height: 25px;}
+    .banner_text h6{font-size: 45px; line-height: 55px;}
+    .game_box_up_inner a{font: 600 18px/20px 'Poppins', sans-serif;}
+    .slot_sec{padding-top: 60px;}
+    .card_game {padding-top: 60px;}
+    .footer_sec{margin-top: 40px;}
+    .footer_inn{padding: 25px 0;}
+    .footer_sec p{font: 300 20px/26px 'Poppins', sans-serif;}
+    .logo_sec { width: 80px;}
+    .banner_sec{padding-top: 25px;}
+}
+
+@media (min-width:992px) and (max-width:1199px){
+    .container{max-width:960px;}
+    .gorila { width: 72%;left: 0px; margin: 0 auto;}
+    .banner_text{top:63px; left: 95px; width: 555px;}
+    .banner_text p{font-size: 21px; line-height: 25px;}
+    .banner_text h6{font-size: 45px; line-height: 55px;}
+    .game_box_up_inner a{font: 600 18px/20px 'Poppins', sans-serif;}
+    .slot_sec{padding-top: 60px;}
+    .card_game {padding-top: 60px;}
+    .footer_sec{margin-top: 40px;}
+    .footer_inn{padding: 25px 0;}
+    .footer_sec p{font: 300 20px/26px 'Poppins', sans-serif;}
+    .logo_sec { width: 80px;}
+    .banner_sec{padding-top: 25px;}
+    .slot_inn h6{font: 400 30px/35px 'Poppins', sans-serif; padding-bottom: 15px;}
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .container{max-width:720px;}
+    .gorila { width: 72%;left: 0px; margin: 0 auto;}
+    .banner_text{top:40px; left: 40px; width: 455px;}
+    .banner_text p{font-size: 17px; line-height: 21px; padding: 10px 0 0;}
+    .banner_text h6{font-size: 30px; line-height: 35px;}
+    .game_box_up_inner a{font: 600 18px/20px 'Poppins', sans-serif;}
+    .slot_sec{padding-top: 60px;}
+    .card_game {padding-top: 60px;}
+    .footer_sec{margin-top: 40px;}
+    .footer_inn{padding: 25px 0;}
+    .footer_sec p{font: 300 20px/26px 'Poppins', sans-serif;}
+    .logo_sec { width: 80px;}
+    .banner_sec{padding-top: 25px;}
+    .slot_inn h6{font: 400 30px/35px 'Poppins', sans-serif; padding-bottom: 15px;}
+    .header_sec{padding-top: 10px;}
+}
+
+@media only screen and (max-width: 767px) {
+    .container{max-width:100%;}
+    .gorila { width: 74%;  left: 0px; margin: 0 auto; right: -25%;}
+    .banner_text{top:40px; left: 40px; width: 410px;}
+    .banner_text p{font-size: 17px; line-height: 21px; padding: 10px 0 0;}
+    .banner_text h6{font-size: 30px; line-height: 35px;}
+    .game_box_up_inner a{font: 600 18px/20px 'Poppins', sans-serif;}
+    .slot_sec{padding-top: 60px;}
+    .card_game {padding-top: 60px;}
+    .footer_sec{margin-top: 40px;}
+    .footer_inn{padding: 25px 0;}
+    .footer_sec p{font: 300 20px/26px 'Poppins', sans-serif;}
+    .logo_sec { width: 80px;}
+    .banner_sec{padding-top: 25px;}
+    .slot_inn h6{font: 400 30px/35px 'Poppins', sans-serif; padding-bottom: 15px;}
+    .header_sec{padding-top: 10px;}
+}
+@media only screen and (max-width: 600px) {
+    .container{max-width:100%;}
+    .gorila { width: 74%;  left: 0px; margin: 0 auto; right: -25%;}
+    .banner_text{top:10px; left: 10px; width:67%;}
+    .banner_text p{font-size: 10px; line-height: 11px; padding: 10px 0 0;}
+    .banner_text h6{font-size: 13px; line-height: 18px;}
+    .game_box_up_inner a{font: 600 18px/20px 'Poppins', sans-serif;}
+    .slot_sec{padding-top: 60px;}
+    .card_game {padding-top: 60px;}
+    .footer_sec{margin-top: 40px;}
+    .footer_inn{padding: 25px 0;}
+    .footer_sec p{font: 300 20px/26px 'Poppins', sans-serif;}
+    .logo_sec { width: 80px;}
+    .banner_sec{padding-top: 25px;}
+    .slot_inn h6{font: 400 30px/35px 'Poppins', sans-serif; padding-bottom: 15px;}
+    .header_sec{padding-top: 10px;}
+}
